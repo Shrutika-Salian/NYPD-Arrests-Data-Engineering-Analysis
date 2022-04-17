@@ -1,0 +1,690 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords>4196163AF83133250D7BD3B4EF16E573FC7F7361131F3762CD96C7646C2C6</Passwords>
+          <File RecordLimit="" FileFormat="23">odbc:DSN=mysql_connection;UID=root;PWD=__EncPwd1__|||`stg_nypd_arrest_data_historic`</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <ReadCentroids>False</ReadCentroids>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DSN=mysql_connection
+Query=`stg_nypd_arrest_data_histor...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field description="PrimaryKey" name="ARREST_KEY" source="File: odbc:DSN=mysql_connection;UID=root;PWD=__EncPwd1__|||`stg_nypd_arrest_data_historic`" type="Int32" />
+            <Field name="ARREST_DATE" size="254" source="File: odbc:DSN=mysql_connection;UID=root;PWD=__EncPwd1__|||`stg_nypd_arrest_data_historic`" type="V_String" />
+            <Field name="PD_CD" size="254" source="File: odbc:DSN=mysql_connection;UID=root;PWD=__EncPwd1__|||`stg_nypd_arrest_data_historic`" type="V_String" />
+            <Field name="PD_DESC" size="254" source="File: odbc:DSN=mysql_connection;UID=root;PWD=__EncPwd1__|||`stg_nypd_arrest_data_historic`" type="V_String" />
+            <Field name="KY_CD" size="254" source="File: odbc:DSN=mysql_connection;UID=root;PWD=__EncPwd1__|||`stg_nypd_arrest_data_historic`" type="V_String" />
+            <Field name="OFNS_DESC" size="254" source="File: odbc:DSN=mysql_connection;UID=root;PWD=__EncPwd1__|||`stg_nypd_arrest_data_historic`" type="V_String" />
+            <Field name="LAW_CODE" size="254" source="File: odbc:DSN=mysql_connection;UID=root;PWD=__EncPwd1__|||`stg_nypd_arrest_data_historic`" type="V_String" />
+            <Field name="LAW_CAT_CD" size="254" source="File: odbc:DSN=mysql_connection;UID=root;PWD=__EncPwd1__|||`stg_nypd_arrest_data_historic`" type="V_String" />
+            <Field name="ARREST_BORO" size="254" source="File: odbc:DSN=mysql_connection;UID=root;PWD=__EncPwd1__|||`stg_nypd_arrest_data_historic`" type="V_String" />
+            <Field name="ARREST_PRECINCT" size="254" source="File: odbc:DSN=mysql_connection;UID=root;PWD=__EncPwd1__|||`stg_nypd_arrest_data_historic`" type="V_String" />
+            <Field name="JURISDICTION_CODE" size="254" source="File: odbc:DSN=mysql_connection;UID=root;PWD=__EncPwd1__|||`stg_nypd_arrest_data_historic`" type="V_String" />
+            <Field name="AGE_GROUP" size="254" source="File: odbc:DSN=mysql_connection;UID=root;PWD=__EncPwd1__|||`stg_nypd_arrest_data_historic`" type="V_String" />
+            <Field name="PERP_SEX" size="254" source="File: odbc:DSN=mysql_connection;UID=root;PWD=__EncPwd1__|||`stg_nypd_arrest_data_historic`" type="V_String" />
+            <Field name="PERP_RACE" size="254" source="File: odbc:DSN=mysql_connection;UID=root;PWD=__EncPwd1__|||`stg_nypd_arrest_data_historic`" type="V_String" />
+            <Field name="X_COORD_CD" size="254" source="File: odbc:DSN=mysql_connection;UID=root;PWD=__EncPwd1__|||`stg_nypd_arrest_data_historic`" type="V_String" />
+            <Field name="Y_COORD_CD" size="254" source="File: odbc:DSN=mysql_connection;UID=root;PWD=__EncPwd1__|||`stg_nypd_arrest_data_historic`" type="V_String" />
+            <Field name="Latitude" size="254" source="File: odbc:DSN=mysql_connection;UID=root;PWD=__EncPwd1__|||`stg_nypd_arrest_data_historic`" type="V_String" />
+            <Field name="Longitude" size="254" source="File: odbc:DSN=mysql_connection;UID=root;PWD=__EncPwd1__|||`stg_nypd_arrest_data_historic`" type="V_String" />
+            <Field name="Lon_Lat" size="254" source="File: odbc:DSN=mysql_connection;UID=root;PWD=__EncPwd1__|||`stg_nypd_arrest_data_historic`" type="V_String" />
+            <Field name="SOR_ID" size="40" source="File: odbc:DSN=mysql_connection;UID=root;PWD=__EncPwd1__|||`stg_nypd_arrest_data_historic`" type="V_String" />
+            <Field name="SOR_Create_Date" source="File: odbc:DSN=mysql_connection;UID=root;PWD=__EncPwd1__|||`stg_nypd_arrest_data_historic`" type="DateTime" />
+            <Field name="SOR_Modified_Date" source="File: odbc:DSN=mysql_connection;UID=root;PWD=__EncPwd1__|||`stg_nypd_arrest_data_historic`" type="DateTime" />
+            <Field name="DI_Create_Date" source="File: odbc:DSN=mysql_connection;UID=root;PWD=__EncPwd1__|||`stg_nypd_arrest_data_historic`" type="DateTime" />
+            <Field name="DI_Modofied_Date" source="File: odbc:DSN=mysql_connection;UID=root;PWD=__EncPwd1__|||`stg_nypd_arrest_data_historic`" type="DateTime" />
+            <Field name="DI_Job_ID" size="40" source="File: odbc:DSN=mysql_connection;UID=root;PWD=__EncPwd1__|||`stg_nypd_arrest_data_historic`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="270" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="AGE_GROUP" />
+            <Field field="PERP_SEX" />
+            <Field field="PERP_RACE" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="AGE_GROUP" />
+            <Field field="PERP_SEX" />
+            <Field field="PERP_RACE" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_AGE_GROUP" selected="False" input="Left_" />
+                <SelectField field="Left_PERP_SEX" selected="False" input="Left_" />
+                <SelectField field="Left_PERP_RACE" selected="False" input="Left_" />
+                <SelectField field="Right_AGE_GROUP" selected="True" rename="Right_AGE_GROUP" input="Right_" />
+                <SelectField field="Right_PERP_SEX" selected="True" rename="Right_PERP_SEX" input="Right_" />
+                <SelectField field="Right_PERP_RACE" selected="True" rename="Right_PERP_RACE" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="138" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords>4196163AF83133250D7BD3B4EF16E573FC7F7361131F3762CD96C7646C2C6</Passwords>
+          <File RecordLimit="" FileFormat="23">odbc:DSN=mysql_connection;UID=root;PWD=__EncPwd1__|||`dim_perpetrator`</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <ReadCentroids>False</ReadCentroids>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DSN=mysql_connection
+Query=`dim_perpetrator`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field description="PrimaryKey" name="Perpetrator_SK" source="File: odbc:DSN=mysql_connection;UID=root;PWD=__EncPwd1__|||`dim_perpetrator`" type="Int32" />
+            <Field name="AGE_GROUP" size="254" source="File: odbc:DSN=mysql_connection;UID=root;PWD=__EncPwd1__|||`dim_perpetrator`" type="V_String" />
+            <Field name="PERP_SEX" size="254" source="File: odbc:DSN=mysql_connection;UID=root;PWD=__EncPwd1__|||`dim_perpetrator`" type="V_String" />
+            <Field name="PERP_RACE" size="254" source="File: odbc:DSN=mysql_connection;UID=root;PWD=__EncPwd1__|||`dim_perpetrator`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="426" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="PD_CD" />
+            <Field field="KY_CD" />
+            <Field field="OFNS_DESC" />
+            <Field field="LAW_CODE" />
+            <Field field="LAW_CAT_CD" />
+            <Field field="JURISDICTION_CODE" />
+            <Field field="PD_DESC" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="PD_CD" />
+            <Field field="KY_CD" />
+            <Field field="OFNS_DESC" />
+            <Field field="LAW_CODE" />
+            <Field field="LAW_CAT_CD" />
+            <Field field="JURISDICTION_CODE" />
+            <Field field="PD_DESC" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_ARREST_KEY" selected="True" input="Left_" />
+                <SelectField field="Left_ARREST_DATE" selected="True" input="Left_" />
+                <SelectField field="Left_ARREST_BORO" selected="True" input="Left_" />
+                <SelectField field="Left_ARREST_PRECINCT" selected="True" input="Left_" />
+                <SelectField field="Left_X_COORD_CD" selected="True" input="Left_" />
+                <SelectField field="Left_Y_COORD_CD" selected="True" input="Left_" />
+                <SelectField field="Left_Latitude" selected="True" input="Left_" />
+                <SelectField field="Left_Longitude" selected="True" input="Left_" />
+                <SelectField field="Left_Lon_Lat" selected="True" input="Left_" />
+                <SelectField field="Left_SOR_ID" selected="True" input="Left_" />
+                <SelectField field="Left_Perpetrator_SK" selected="True" input="Left_" />
+                <SelectField field="Right_Crime_SK" selected="True" input="Right_" />
+                <SelectField field="Right_PD_CD" selected="False" rename="Right_PD_CD" input="Right_" />
+                <SelectField field="Right_PD_DESC" selected="False" rename="Right_PD_DESC" input="Right_" />
+                <SelectField field="Right_KY_CD" selected="False" rename="Right_KY_CD" input="Right_" />
+                <SelectField field="Right_OFNS_DESC" selected="False" rename="Right_OFNS_DESC" input="Right_" />
+                <SelectField field="Right_LAW_CODE" selected="False" rename="Right_LAW_CODE" input="Right_" />
+                <SelectField field="Right_LAW_CAT_CD" selected="False" rename="Right_LAW_CAT_CD" input="Right_" />
+                <SelectField field="Right_JURISDICTION_CODE" selected="False" rename="Right_JURISDICTION_CODE" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="306" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords>4196163AF83133250D7BD3B4EF16E573FC7F7361131F3762CD96C7646C2C6</Passwords>
+          <File RecordLimit="" FileFormat="23">odbc:DSN=mysql_connection;UID=root;PWD=__EncPwd1__|||`dim_crime`</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <ReadCentroids>False</ReadCentroids>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DSN=mysql_connection
+Query=`dim_crime`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field description="PrimaryKey" name="Crime_SK" source="File: odbc:DSN=mysql_connection;UID=root;PWD=__EncPwd1__|||`dim_crime`" type="Int32" />
+            <Field name="PD_CD" size="254" source="File: odbc:DSN=mysql_connection;UID=root;PWD=__EncPwd1__|||`dim_crime`" type="V_String" />
+            <Field name="PD_DESC" size="254" source="File: odbc:DSN=mysql_connection;UID=root;PWD=__EncPwd1__|||`dim_crime`" type="V_String" />
+            <Field name="KY_CD" size="254" source="File: odbc:DSN=mysql_connection;UID=root;PWD=__EncPwd1__|||`dim_crime`" type="V_String" />
+            <Field name="OFNS_DESC" size="254" source="File: odbc:DSN=mysql_connection;UID=root;PWD=__EncPwd1__|||`dim_crime`" type="V_String" />
+            <Field name="LAW_CODE" size="254" source="File: odbc:DSN=mysql_connection;UID=root;PWD=__EncPwd1__|||`dim_crime`" type="V_String" />
+            <Field name="LAW_CAT_CD" size="254" source="File: odbc:DSN=mysql_connection;UID=root;PWD=__EncPwd1__|||`dim_crime`" type="V_String" />
+            <Field name="JURISDICTION_CODE" size="254" source="File: odbc:DSN=mysql_connection;UID=root;PWD=__EncPwd1__|||`dim_crime`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="558" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="ARREST_BORO" />
+            <Field field="ARREST_PRECINCT" />
+            <Field field="X_COORD_CD" />
+            <Field field="Y_COORD_CD" />
+            <Field field="Latitude" />
+            <Field field="Longitude" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="ARREST_BORO" />
+            <Field field="ARREST_PRECINCT" />
+            <Field field="X_COORD_CD" />
+            <Field field="Y_COORD_CD" />
+            <Field field="Latitude" />
+            <Field field="Longitude" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_ARREST_KEY" selected="True" input="Left_" />
+                <SelectField field="Left_ARREST_DATE" selected="True" input="Left_" />
+                <SelectField field="Left_Perpetrator_SK" selected="True" input="Left_" />
+                <SelectField field="Left_Crime_SK" selected="True" input="Left_" />
+                <SelectField field="Right_Address_SK" selected="True" input="Right_" />
+                <SelectField field="Right_ARREST_BORO" selected="False" rename="Right_ARREST_BORO" input="Right_" />
+                <SelectField field="Right_ARREST_PRECINCT" selected="False" rename="Right_ARREST_PRECINCT" input="Right_" />
+                <SelectField field="Right_X_COORD_CD" selected="False" rename="Right_X_COORD_CD" input="Right_" />
+                <SelectField field="Right_Y_COORD_CD" selected="False" rename="Right_Y_COORD_CD" input="Right_" />
+                <SelectField field="Right_Latitude" selected="False" rename="Right_Latitude" input="Right_" />
+                <SelectField field="Right_Longitude" selected="False" rename="Right_Longitude" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="450" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords>4196163AF83133250D7BD3B4EF16E573FC7F7361131F3762CD96C7646C2C6</Passwords>
+          <File RecordLimit="" FileFormat="23">odbc:DSN=mysql_connection;UID=root;PWD=__EncPwd1__|||`dim_address`</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <ReadCentroids>False</ReadCentroids>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DSN=mysql_connection
+Query=`dim_address`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field description="PrimaryKey" name="Address_SK" source="File: odbc:DSN=mysql_connection;UID=root;PWD=__EncPwd1__|||`dim_address`" type="Int32" />
+            <Field name="ARREST_BORO" size="254" source="File: odbc:DSN=mysql_connection;UID=root;PWD=__EncPwd1__|||`dim_address`" type="V_String" />
+            <Field name="ARREST_PRECINCT" size="254" source="File: odbc:DSN=mysql_connection;UID=root;PWD=__EncPwd1__|||`dim_address`" type="V_String" />
+            <Field name="X_COORD_CD" size="254" source="File: odbc:DSN=mysql_connection;UID=root;PWD=__EncPwd1__|||`dim_address`" type="V_String" />
+            <Field name="Y_COORD_CD" size="254" source="File: odbc:DSN=mysql_connection;UID=root;PWD=__EncPwd1__|||`dim_address`" type="V_String" />
+            <Field name="Latitude" size="254" source="File: odbc:DSN=mysql_connection;UID=root;PWD=__EncPwd1__|||`dim_address`" type="V_String" />
+            <Field name="Longitude" size="254" source="File: odbc:DSN=mysql_connection;UID=root;PWD=__EncPwd1__|||`dim_address`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="930" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="ARREST_DATE" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="ARREST_DATE" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Perpetrator_SK" selected="True" input="Left_" />
+                <SelectField field="Left_Crime_SK" selected="True" input="Left_" />
+                <SelectField field="Left_Address_SK" selected="True" input="Left_" />
+                <SelectField field="Left_Date_SK" selected="True" input="Left_" />
+                <SelectField field="Right_Date_SK" selected="False" rename="Right_Date_SK" input="Right_" />
+                <SelectField field="Right_ARREST_DATE" selected="False" rename="Right_ARREST_DATE" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="582" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords>4196163AF83133250D7BD3B4EF16E573FC7F7361131F3762CD96C7646C2C6</Passwords>
+          <File RecordLimit="" FileFormat="23">odbc:DSN=mysql_connection;UID=root;PWD=__EncPwd1__|||`dim_date`</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <ReadCentroids>False</ReadCentroids>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DSN=mysql_connection
+Query=`dim_date`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field description="PrimaryKey" name="Date_SK" source="File: odbc:DSN=mysql_connection;UID=root;PWD=__EncPwd1__|||`dim_date`" type="Int32" />
+            <Field name="ARREST_DATE" size="254" source="File: odbc:DSN=mysql_connection;UID=root;PWD=__EncPwd1__|||`dim_date`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="642" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>ARREST_DATE</Field>
+          <RegExExpression value="/" />
+          <CaseInsensitve value="True" />
+          <Method>Replace</Method>
+          <Replace expression="-">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>ARREST_DATE</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="No Marked Groups Found" type="No Marked Groups Found" size="No Marked Groups Found" />
+          </ParseComplex>
+          <Match>
+            <Field>Inspection Date_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="726" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>ARREST_DATE</InputFieldName>
+          <Language>English</Language>
+          <Format>MM-dd-yyyy</Format>
+          <OutputFieldName>Datetime_SK</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="2">
+          <Name />
+          <DefaultAnnotationText>Convert ARREST_DATE From:
+MM-dd-yyyy</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="834" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="ToString((DateTimeFormat([Datetime_SK],'%Y%m%d')))&#xA;" field="Date_SK" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="2">
+          <Name />
+          <AnnotationText><![CDATA[Datetime_SK_new = ToString(DateTimeFormat([Datetime_SK],'%Y%m%d'))
+
+]]></AnnotationText>
+          <DefaultAnnotationText><![CDATA[Date_SK = ToString((DateTimeFormat([Datetime_SK],'%Y%m%d')))
+
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="150" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="if isnull([ARREST_BORO])&#xA;then &quot;Unknown&quot; else [ARREST_BORO] endif" field="ARREST_BORO" size="254" type="V_String" />
+            <FormulaField expression="if isnull([PD_CD])&#xA;then &quot;Unknown&quot; else [PD_CD] endif" field="PD_CD" size="254" type="V_String" />
+            <FormulaField expression="if isnull([PD_DESC])&#xA;then &quot;Unknown&quot; else [PD_DESC] endif" field="PD_DESC" size="254" type="V_String" />
+            <FormulaField expression="if isnull([KY_CD])&#xA;then &quot;Unknown&quot; else [KY_CD] endif" field="KY_CD" size="254" type="V_String" />
+            <FormulaField expression="if isnull([OFNS_DESC])&#xA;then &quot;Unknown&quot; else [OFNS_DESC] endif" field="OFNS_DESC" size="254" type="V_String" />
+            <FormulaField expression="if isnull([LAW_CODE])&#xA;then &quot;Unknown&quot; else [LAW_CODE] endif" field="LAW_CODE" size="254" type="V_String" />
+            <FormulaField expression="if isnull([LAW_CAT_CD])&#xA;then &quot;Unknown&quot; else [LAW_CAT_CD] endif" field="LAW_CAT_CD" size="254" type="V_String" />
+            <FormulaField expression="if isnull([JURISDICTION_CODE])&#xA;then &quot;Unknown&quot; else [JURISDICTION_CODE] endif" field="JURISDICTION_CODE" size="254" type="V_String" />
+            <FormulaField expression="if isnull([AGE_GROUP])&#xA;then &quot;Unknown&quot; else [AGE_GROUP] endif" field="AGE_GROUP" size="254" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="2">
+          <Name />
+          <DefaultAnnotationText>ARREST_BORO = if isnull([ARREST_BORO])
+then "Unknown" else [ARREST_BORO] endif
+P...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="1014" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>Fact_NYC_SK</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1158" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[Engine.WorkflowFileName]" field="SOR_ID" size="40" type="V_WString" />
+            <FormulaField expression="DateTimeToday()" field="SOR_Create_Date" size="19" type="DateTime" />
+            <FormulaField expression="DateTimeNow()" field="SOR_Modified_Date" size="19" type="DateTime" />
+            <FormulaField expression="DateTimeToday()" field="DI_Create_Date" size="19" type="DateTime" />
+            <FormulaField expression="DateTimeNow()" field="DI_Modofied_Date" size="19" type="DateTime" />
+            <FormulaField expression="tonumber(replace(replace(replace([DI_Create_Date],'-',''),'',''),':',''))&#xA;&#xA;" field="DI_Job_ID" size="40" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>SOR_ID = [Engine.WorkflowFileName]
+SOR_Create_Date = DateTimeToday()
+SOR_Modifie...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1278" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">odbc:DSN=mysql_connection;UID=root;PWD=__EncPwd1__|||Fact_NYC_Arrest</File>
+          <Passwords>4196163AF83133250D7BD3B4EF16E573FC7F7361131F3762CD96C7646C2C6</Passwords>
+          <FormatSpecificOptions>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <TransactionSize>10000</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL>ALTER TABLE Fact_NYC_Arrest
+MODIFY Fact_NYC_SK int NOT NULL; 
+
+ALTER TABLE Fact_NYC_Arrest 
+ADD PRIMARY KEY (Fact_NYC_SK)</PostSQL>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL>DROP TABLE IF EXISTS Fact_NYC_Arrest;</PreSQL>
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DSN=mysql_connection
+Query=Fact_NYC_Arrest</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Join" />
+      <Destination ToolID="4" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="4" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="2" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="2" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Join" />
+      <Destination ToolID="6" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="6" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Join" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Join" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="8" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="8" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Fact_NYC_Arrest</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="0fe6ddda-4c39-4ca1-9baf-bd0e01a19eee" />
+      <Telemetry>
+        <PreviousWorkflowId value="ff8ba97d-79fa-4d48-b134-c0bc952fa39f" />
+        <OriginWorkflowId value="ff8ba97d-79fa-4d48-b134-c0bc952fa39f" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
