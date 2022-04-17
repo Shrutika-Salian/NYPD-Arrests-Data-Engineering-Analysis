@@ -5,6 +5,6 @@ This data can be used by the public to explore the nature of police enforcement 
 Please refer to the attached data footnotes for additional information about this dataset.
 
 ### What's in this Dataset?
-Rows **5.15M**
-Columns **19**
-Each row is a **--Arrest--** in NYC by NYPD
+Rows **5.15M** |
+Columns **19** |
+Each row is a _Arrest in NYC by NYPD_
