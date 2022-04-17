@@ -12,6 +12,6 @@ Rows **5.15M** |
 Columns **19** |
 Each row is a _Arrest in NYC by NYPD_
 
-### PowerBI Visualizations at: [NYC-PowerBI-Visualizations] (https://app.powerbi.com/view?r=eyJrIjoiZDAwNzA0ODctODc1Ny00NGQzLThlNzItNDA0M2I3NTZhZmQ2IiwidCI6ImE4ZWVjMjgxLWFhYTMtNGRhZS1hYzliLTlhMzk4YjkyMTVlNyIsImMiOjN9&pageName=ReportSectiona13b8a7aa0b1a21cd8da)
+### PowerBI Visualizations at: [NYC-PowerBI-Visualizations](https://app.powerbi.com/view?r=eyJrIjoiZDAwNzA0ODctODc1Ny00NGQzLThlNzItNDA0M2I3NTZhZmQ2IiwidCI6ImE4ZWVjMjgxLWFhYTMtNGRhZS1hYzliLTlhMzk4YjkyMTVlNyIsImMiOjN9&pageName=ReportSectiona13b8a7aa0b1a21cd8da)
 
 
