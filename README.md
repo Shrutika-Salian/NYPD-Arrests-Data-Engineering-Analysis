@@ -1,10 +1,16 @@
 # NYPD_Arrests_Data
-List of every arrest in NYC going back to 2006 through the end of the previous calendar year. This is a breakdown of every arrest effected in NYC by the NYPD going back to 2006 through the end of the previous calendar year. This data is manually extracted every quarter and reviewed by the Office of Management Analysis and Planning before being posted on the NYPD website. Each record represents an arrest effected in NYC by the NYPD and includes information about the type of crime, the location and time of enforcement.
-In addition, information related to suspect demographics is also included.
-This data can be used by the public to explore the nature of police enforcement activity.
-Please refer to the attached data footnotes for additional information about this dataset.
+•	Designed dimensional model for dataset using DATAEDO (mac) & ER DATA STUDIO (windows) for NYPD arrests data
+•	Staged largescale data from multiple sources into one database (SQL Server)
+•	Engineered ETL workflows and systematized data cleansing to integrate data into facts & dimensions using ALTERYX & TALEND 
+•	Reduced the overall time taken by 50% to load the fact table (53.1 million records) implementing performance tuning and parallelization of ETL jobs
+•	Visualized the data using TABLEAU and POWERBI to discover concealed but paramount insights 
+ 
+ The Datasets are available at: [OpenData](https://data.cityofnewyork.us/Public-Safety/NYPD-Arrests-Data-Historic-/8h9b-rp9u)
+ 
+
 
 ### What's in this Dataset?
 Rows **5.15M** |
 Columns **19** |
 Each row is a _Arrest in NYC by NYPD_
+
