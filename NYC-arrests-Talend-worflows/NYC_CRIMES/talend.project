@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_OE5A0LdyEeyMSu6hDK-Snw" label="NYC_Crimes" description="" language="java" technicalLabel="NYC_CRIMES" local="true" author="_OE5A0bdyEeyMSu6hDK-Snw" productVersion="Talend Real-time Big Data Platform-8.0.1.20211109_1610" type="DQ" itemsRelationVersion="1.3">
+    <migrationTask xmi:id="_OIBNULdyEeyMSu6hDK-Snw" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
+  </TalendProperties:Project>
+  <TalendProperties:User xmi:id="_OE5A0bdyEeyMSu6hDK-Snw" login="salian.s@northeastern.edu" password="D41D8CD98F00B204E9800998ECF8427E"/>
+</xmi:XMI>
