@@ -5,7 +5,7 @@ Data Dictionary is given below:<br />
 ![image](https://github.com/Shrutika-Salian/New-York-Police-Department-Data-Engineering-and-Visualizations/assets/91072559/02a23b08-17da-46ca-bd06-2fed44ed65ee)
 The Datasets are available at: [OpenData](https://data.cityofnewyork.us/Public-Safety/NYPD-Arrests-Data-Historic-/8h9b-rp9u)
 
-Overview of Tasks performed:
+Overview of Tasks performed:<br />
 •	Designed dimensional model for dataset using DATAEDO (mac) & ER DATA STUDIO (windows) for NYPD arrests data <br />
 •	Staged largescale data from multiple sources into one database (SQL Server)<br />
 •	Engineered ETL workflows and systematized data cleansing to integrate data into facts & dimensions using ALTERYX & TALEND <br />
