@@ -9,7 +9,7 @@ Overview of Tasks performed:<br />
 ### What's in this Dataset?
 Rows **5.15M** |
 Columns **19** |
-Each row is a _Arrest in NYC by NYPD_
+Each row is a _Arrest in NYC by NYPD_ <br />
 Data Dictionary is given below:<br />
 ![image](https://github.com/Shrutika-Salian/New-York-Police-Department-Data-Engineering-and-Visualizations/assets/91072559/02a23b08-17da-46ca-bd06-2fed44ed65ee) 
 The Datasets are available at: [OpenData](https://data.cityofnewyork.us/Public-Safety/NYPD-Arrests-Data-Historic-/8h9b-rp9u)<br /><br />
