@@ -1,11 +1,16 @@
 # NYPD_Arrests_Data
-•	Designed dimensional model for dataset using DATAEDO (mac) & ER DATA STUDIO (windows) for NYPD arrests data
-•	Staged largescale data from multiple sources into one database (SQL Server)
-•	Engineered ETL workflows and systematized data cleansing to integrate data into facts & dimensions using ALTERYX & TALEND 
-•	Reduced the overall time taken by 50% to load the fact table (53.1 million records) implementing performance tuning and parallelization of ETL jobs
-•	Visualized the data using TABLEAU and POWERBI to discover concealed but paramount insights 
- 
- The Datasets are available at: [OpenData](https://data.cityofnewyork.us/Public-Safety/NYPD-Arrests-Data-Historic-/8h9b-rp9u)
+
+
+Data Dictionary is given below:<br />
+![image](https://github.com/Shrutika-Salian/New-York-Police-Department-Data-Engineering-and-Visualizations/assets/91072559/02a23b08-17da-46ca-bd06-2fed44ed65ee)
+The Datasets are available at: [OpenData](https://data.cityofnewyork.us/Public-Safety/NYPD-Arrests-Data-Historic-/8h9b-rp9u)
+
+Overview of Tasks performed:
+•	Designed dimensional model for dataset using DATAEDO (mac) & ER DATA STUDIO (windows) for NYPD arrests data <br />
+•	Staged largescale data from multiple sources into one database (SQL Server)<br />
+•	Engineered ETL workflows and systematized data cleansing to integrate data into facts & dimensions using ALTERYX & TALEND <br />
+•	Reduced the overall time taken by 50% to load the fact table (53.1 million records) implementing performance tuning and parallelization of ETL jobs<br />
+•	Visualized the data using TABLEAU and POWERBI to discover concealed but paramount insights <br /><br />
  
 ### What's in this Dataset?
 Rows **5.15M** |
